@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const SkillCard = ({ imgSrc, label, desc, classes, Color }) => {
   return (
     <div
-      className={`flex items-center gap-3 ring-2 ring-inset rounded-2xl p-3 hover:bg-zinc-800 transition-colors group ${classes}`}
+      className={`flex items-center gap-3  ring-2 ring-white ring-opacity-5 ring-inset rounded-2xl p-3 hover:bg-zinc-800 transition-colors group ${classes}`}
       style={{ borderColor: Color }}
     >
       <figure
