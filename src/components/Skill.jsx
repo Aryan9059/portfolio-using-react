@@ -3,19 +3,19 @@ import SkillCard from "./SkillCard";
 const Skill = () => {
     const skillItem = [
         {
-            imgSrc: '../../assets/skills/kotlin_Icon.png',
+            imgSrc: '../../assets/skills/kotlin.png',
             label: 'Kotlin',
-            desc: 'Design tool',
+            desc: 'Programming Language',
             Color: "a97bff",
         },
         {
             imgSrc: '../../assets/skills/jc_icon.png',
             label: 'Jetpack Compose',
-            desc: 'UI toolkit',
+            desc: 'UI Framework',
             Color: "3ddc84"
         },
         {
-            imgSrc: '../../assets/skills/and_java.png',
+            imgSrc: '../../assets/skills/java.png',
             label: 'Android Java',
             desc: 'Programming Language',
             Color: "b06304"
@@ -23,19 +23,19 @@ const Skill = () => {
         {
             imgSrc: '../../assets/skills/figma.png',
             label: 'Figma',
-            desc: 'Design tool',
+            desc: 'Design Tool',
             Color: "ff6347"
         },
         {
-            imgSrc: '../../assets/skills/and_xml.png',
+            imgSrc: '../../assets/skills/android.png',
             label: 'Android XML',
-            desc: 'UI layout tool',
+            desc: 'Markup Language',
             Color:"00bfff"
         },
         {
-            imgSrc: '../../assets/skills/adobe_ill.png',
+            imgSrc: '../../assets/skills/illustrator.png',
             label: 'Adobe Illustrator',
-            desc: 'Design tool',
+            desc: 'Graphics Design Tool',
             Color: "#b5b5f6"
         },
     ];

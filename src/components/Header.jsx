@@ -25,8 +25,8 @@ const Header = ()=>{
 
                     <Navbar navOpen={navOpen}/>
                 </div>
-                <a href="#contact" 
-                className="btn btn-secondary max-md:hidden md:justify-self-end" >contact me</a>
+                <a href="https://www.youtube.com/@withcodeperfect" target="blank"
+                className="btn btn-secondary max-md:hidden md:justify-self-end" >YouTube Channel</a>
             </div>
         </header>
     )

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-zinc-900 text-zinc-400 py-16">
       <div className="container mx-auto text-center">
-        <h2 className="text-xl font-semibold text-zinc-100 mb-4">
+        <h2 className="text-xl font-semibold text-zinc-100 mb-2">
           Made with ❤️ by Team Pixel Perfect
         </h2>
         <p className="text-sm">

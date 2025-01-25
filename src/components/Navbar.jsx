@@ -16,10 +16,8 @@ const Navbar = ({ navOpen }) => {
   };
 
   useEffect(() => {
-    // Initialize active box position on load
     initActiveBox();
 
-    // Update active box on window resize
     const handleResize = () => initActiveBox();
     window.addEventListener("resize", handleResize);
 
@@ -29,14 +27,11 @@ const Navbar = ({ navOpen }) => {
   }, []);
 
   const activeCurrentLink = (event) => {
-    // Remove 'active' from the last link
     lastActiveLink.current?.classList.remove("active");
 
-    // Add 'active' to the current link
     event.target.classList.add("active");
     lastActiveLink.current = event.target;
 
-    // Update the active box position
     const { offsetTop, offsetLeft, offsetWidth, offsetHeight } = event.target;
     activeBox.current.style.top = `${offsetTop}px`;
     activeBox.current.style.left = `${offsetLeft}px`;
@@ -47,8 +42,8 @@ const Navbar = ({ navOpen }) => {
   const navItems = [
     { label: "Home", link: "#home", className: "nav-link active" },
     { label: "About", link: "#about", className: "nav-link" },
-    { label: "Work", link: "#work", className: "nav-link" },
-    { label: "Youtube", link: "https://www.youtube.com/results?search_query=fizanto+fuzz", className: "nav-link" },
+    { label: "Projects", link: "#work", className: "nav-link" },
+    { label: "Contact", link: "#contact", className: "nav-link" },
     { label: "Contact", link: "#contact", className: "nav-link md:hidden" },
   ];
 

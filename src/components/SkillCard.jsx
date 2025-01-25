@@ -9,7 +9,7 @@ const SkillCard = ({ imgSrc, label, desc, classes, Color }) => {
     >
       <figure
         className="bg-zinc-700/50 rounded-lg overflow-hidden w-12 h-12 p-2 group-hover:bg-zinc-900 transition-colors"
-        style={{ backgroundColor: "bg-pink-500" }} // Light background based on the color
+        style={{ backgroundColor: "bg-purple-400" }}
       >
         <img src={imgSrc} width={32} height={32} alt={label} />
       </figure>
@@ -17,7 +17,7 @@ const SkillCard = ({ imgSrc, label, desc, classes, Color }) => {
         <h3 className="text-zinc-100" style={{ color: Color }}>
           {label}
         </h3>
-        <p className="text-zinc-400" style={{ color: `bg-pink-500` }}> {/* Semi-transparent */}
+        <p className="text-zinc-400" style={{ color: `bg-purple-400` }}> {}
           {desc}
         </p>
       </div>
@@ -30,7 +30,7 @@ SkillCard.propTypes = {
   label: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired,
   classes: PropTypes.string,
-  Color: PropTypes.string, // Must be a valid color code or Tailwind-compatible class name
+  Color: PropTypes.string,
 };
 
 export default SkillCard;
