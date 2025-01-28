@@ -44,7 +44,7 @@ const Navbar = ({ navOpen }) => {
     { label: "About", link: "#about", className: "nav-link" },
     { label: "Projects", link: "#work", className: "nav-link" },
     { label: "Contact", link: "#contact", className: "nav-link" },
-    { label: "Contact", link: "#contact", className: "nav-link md:hidden" },
+    { label: "YouTube", link: "https://www.youtube.com/@withcodeperfect", className: "nav-link md:hidden" },
   ];
 
   return (
