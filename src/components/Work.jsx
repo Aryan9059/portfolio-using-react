@@ -9,6 +9,12 @@ const works = [
     projectLink: 'https://github.com/Aryan9059/hype.pass',
   },
   {
+    imgSrc: '/assets/huddle.png',
+    title: 'Huddle',
+    tags: ['Kotlin', 'XML', 'Firestore', "OpenCode '24"],
+    projectLink: 'https://github.com/Aryan9059/Huddle',
+  },
+  {
     imgSrc: '/assets/work/fizanto_fuzz.png',
     title: 'Fizanto Fuzz',
     tags: ['YouTube API', 'Java/XML','Firebase','Material UI'],
