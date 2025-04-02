@@ -25,7 +25,7 @@ const Header = ()=>{
 
                     <Navbar navOpen={navOpen}/>
                 </div>
-                <a href="https://www.youtube.com/@withcodeperfect" target="blank"
+                <a href="https://www.youtube.com/@its-pixelperfect" target="blank"
                 className="btn btn-secondary max-md:hidden md:justify-self-end" >YouTube Channel</a>
             </div>
         </header>
