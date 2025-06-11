@@ -8,7 +8,7 @@ const Header = ()=>{
             <div className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center md:px-6 md:grid md:grid-cols-[1fr,3fr,1fr]">
                 <h1>
                     <a href="/" className="logo">
-                    <img src="../../assets/cute_flame.jpeg" alt="" width={40} height={40} className="rounded-full"/>
+                    <img src="../../assets/final.png" alt="" width={40} height={40} className="rounded-full"/>
                     </a>
                 </h1>
 
