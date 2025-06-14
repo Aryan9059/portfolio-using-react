@@ -16,8 +16,8 @@ const Skill = () => {
         },
         {
             imgSrc: '../../assets/skills/java.png',
-            label: 'Android Java',
-            desc: 'Programming Language',
+            label: 'Java',
+            desc: 'For Android',
             Color: "b06304"
         },
         {
@@ -46,7 +46,7 @@ const Skill = () => {
                 <h2 className="headline-2">
                     Tech Stack
                 </h2>
-                <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
+                <p className="text-[#d8c2bb] mt-3 mb-8 max-w-[50ch]">
                     Discover the powerful tools and technologies I use to create exceptional, high performing applications.
                 </p>
                 <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">

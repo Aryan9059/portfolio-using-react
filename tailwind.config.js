@@ -8,7 +8,9 @@ export default {
   theme: {
     extended:{
       fontFamily:{
-        'sans': ['Inter','sans-serif']
+        'display': ['Poppins', 'sans-serif'],
+        'body': ['Poppins', 'sans-serif'],
+        'sans': ['Poppins','sans-serif']
       },
       colors:{
         'purple':"a97bff",

@@ -3,9 +3,9 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: '/assets/work/pass.png',
+    imgSrc: '/assets/pass.png',
     title: 'hype.pass',
-    tags: ['Kotlin', 'Room', 'Jetpack Compose', 'Coroutines'],
+    tags: ['Kotlin', 'Room', 'Compose', 'Coroutines'],
     projectLink: 'https://github.com/Aryan9059/hype.pass',
   },
   {

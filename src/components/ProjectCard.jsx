@@ -7,8 +7,8 @@ const ProjectCard=({
     classes
 })=>{
     return(
-        <div className={"relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors"+classes}>
-            <figure className="img-box aspect-video rounded-lg mb-4">
+        <div className={"relative p-4 rounded-3xl bg-[#271e1a] hover:bg-[#322824] active:bg-[#322824] ring-1 ring-inset ring-[#322824] transition-colors"+classes}>
+            <figure className="img-box aspect-video rounded-2xl mb-4">
                 <img 
                 src={imgSrc}
                 alt={title} 
@@ -17,20 +17,20 @@ const ProjectCard=({
             </figure>
             <div className="flex items-center justify-between gap-4">
                 <div>
-                    <h3 className="title-1 mb-3">
+                    <h3 className="title-1 mb-4 text-[#f1dfd9] ml-1">
                         {title}
                     </h3>
                     <div className="flex flex-wrap items-center gap-2">
                         {tags.map((label,key)=>(
                             <span
                             key={key}
-                            className="h-8 text-sm text-zinc-400 bg-zinc-50/5 grid items-center px-3 rounded-lg"
+                            className="h-8 text-sm text-[#d8c2bb] bg-[#3d322f]/70 grid items-center px-3 rounded-lg"
                             >{label}</span>
                         ))}
                     </div>
                 </div>
 
-                <div className="w-11 h-11 rounded-full grid place-items-center bg-violet-400 text-zinc-50 shrink-0">
+                <div className="w-11 h-11 rounded-[12px] grid place-items-center bg-[#d5c78e] text-[#383005] shrink-0">
                     <span
                     className="material-symbols-rounded"
                     aria-hidden="true"

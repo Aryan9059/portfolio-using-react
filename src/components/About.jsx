@@ -16,18 +16,31 @@ const About = () => {
         className="section"
       >
         <div className="container">
-          <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
-            <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-              Welcome! I&apos;m Aryan Srivastava, a novice Android Developer currently pursuing my studies from India Institute of Information Technology, Allahabad. With a knack for creating user-friendly mobile applications, I specialize in Kotlin and Jetpack Compose, and I&apos;m always eager to explore innovative ways to enhance app design and functionality.
+          <div className="bg-[#271e1a] p-7 rounded-3xl md:p-12 ring-1 ring-inset ring-[#322824]">
+            <p className="text-[#f1dfd9] md:mb-5 mb-3 md:text-3xl font-medium text-xl md:max-w-[60ch]">Experience</p>
+            <p className="text-[#d8c2bb] mb-6 md:mb-8 md:text-lg md:max-w-[60ch]">
+              <span className="text-[#f1dfd9] font-medium md:text-lg">Figma Designer</span><br />
+              <span className="text-[#d8c2bb] font-light">Bitance Labs</span> <br />
+              <span className="text-[#d8c2bb] font">Mar. 2025 - Present</span>
+            </p>
+            <p className="text-[#d8c2bb] mb-6 md:mb-8 md:text-lg md:max-w-[60ch]">
+              <span className="text-[#f1dfd9] font-medium md:text-lg">Member @ App Development Wing</span><br />
+              <span className="text-[#d8c2bb] font-light">Club of Professionals, IIIT Allahabad</span> <br />
+              <span className="text-[#d8c2bb] font">Jan. 2025 - Present</span>
+            </p>
+            <p className="text-[#d8c2bb] mb-6 md:mb-8 md:text-lg md:max-w-[60ch]">
+              <span className="text-[#f1dfd9] font-medium md:text-lg">Member @ Design Wing</span><br />
+              <span className="text-[#d8c2bb] font-light">Entrepreneurship Cell, IIIT Allahabad</span> <br />
+              <span className="text-[#d8c2bb] font">Dec. 2024 - Present</span>
             </p>
             <div className="flex flex-wrap items-center gap-4 md:gap-7">
               {aboutItems.map(({ label, number }, key) => (
                 <div key={key}>
                   <div className="flex items-center md:mb-2">
-                    <span className="text-2xl font-semibold md:text-4xl">{number}</span>
-                    <span className="text-violet-400 font-semibold md:text-3xl">+</span>
+                    <span className="text-2xl text-[#ffb59a] font-semibold md:text-4xl">{number}</span>
+                    <span className="text-[#d5c78e] font-semibold md:text-3xl">+</span>
                   </div>
-                  <p className="text-sm text-zinc-400">{label}</p>
+                  <p className="text-sm text-[#d8c2bb]">{label}</p>
                 </div>
               ))}
               <img

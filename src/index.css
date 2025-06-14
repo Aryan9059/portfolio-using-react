@@ -1,18 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Import in your CSS file */
-
 
 html{
   scroll-behavior: smooth;
 }
 
 body{
-  @apply bg-zinc-900 text-zinc-50 h-[200vh]
+  @apply bg-[#1a110e] text-zinc-50 h-[200vh];
+  font-family: 'Poppins', 'Inter', sans-serif;
 }
 
-/*Utilities*/
 .material-symbols-required {
   @apply w-[1em] h-[1em] overflow-hidden;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
@@ -30,10 +28,9 @@ body{
 .section{
   @apply pt-20 lg:pt-32
 }
-/*TTypography*/
 .headline-1, .headline-2{
   @apply max-w-max;
-  background: -webkit-linear-gradient(0deg,#b5b5f6, #f7bff4);
+  background: #ffb59a;
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent ;
 }
@@ -48,16 +45,11 @@ body{
 .title-1{
   @apply text-[22px] font-normal
 }
-/*components*/
-
-/*Menu btn*/
 .menu-btn{
   @apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transfrom]
 }
-
-/*Nav bar*/
 .navbar{
-  @apply absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-50/10 rounded-2xl ring-inset ring-1 ring-zinc-50/5 scale-90 blur-sm opacity-0 invisible transition-[opacity,transform,filter] md:static md:flex md:items-center md:mt-0 md:opacity-100 md:blur-0 md:visible md:scale-100 backdrop-blur-2xl
+  @apply absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-50/10 md:rounded-full rounded-2xl ring-inset ring-1 ring-zinc-50/5 scale-90 blur-sm opacity-0 invisible transition-[opacity,transform,filter] md:static md:flex md:items-center md:mt-0 md:opacity-100 md:blur-0 md:visible md:scale-100 backdrop-blur-2xl
 }
 
 .navbar.active{
@@ -65,24 +57,22 @@ body{
 }
 
 .nav-link{
-  @apply grid items-center h-9 px-4 text-sm font-medium tracking-wide text-pink-50/50 hover:text-zinc-50 transition-colors
+  @apply grid items-center h-9 px-4 text-sm font-medium tracking-wide text-[#a08d86] hover:text-[#d8c2bb] transition-colors
 }
 
 .nav-link.active {
-  @apply text-zinc-900 duration-500
+  @apply text-[#383005] duration-500
 }
 
 .navbar .active-box{
-  @apply absolute top-2 left-2 right-2 h-9 bg-pink-50 rounded-lg -z-10 transition-[top,left] duration-500
+  @apply absolute top-2 left-2 right-2 h-9 bg-[#d5c78e] rounded-xl md:rounded-full -z-10 transition-[top,left] duration-500
 }
 
-/*Button*/
-
 .btn{
-  @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color]}
+  @apply max-w-max h-9 flex items-center gap-2 px-5 py-5 rounded-full font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color]}
 
 .btn-secondary{
-  @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80
+  @apply bg-[#ffb59a] text-[#55200a] hover:bg-[#e7beaf]
 }
 
 .btn .material-symbols-rounded{
@@ -94,7 +84,7 @@ body{
 }
 
 .btn-primary{
-  @apply h-11 bg-zinc-400 text-pink-950 hover:bg-pink-300 active:bg-pink-400
+  @apply h-11 bg-[#5d4035] text-[#ffdbcf] hover:bg-[#442a20]
 }
 
 .btn-outline{
@@ -102,14 +92,14 @@ body{
 }
 
 .label{
-  @apply block text-zinc-200 text-sm font-normal mb-2
+  @apply block text-[#f1dfd9] text-sm font-normal mb-2
 }
 
 .text-field{
-  @apply block outline-none w-full px-3 py-3 text-sm bg-zinc-800 rounded-xl ring-1 ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5 focus:ring-sky-400
+  @apply block outline-none w-full px-3 py-3 text-sm text-[#f1dfd9] bg-[#271e1a] rounded-xl ring-1 ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5 focus:ring-[#ffb59a]
   focus:ring-2
 }
 
 .text-field::placeholder{
-  @apply text-zinc-400
+  @apply text-[#a08d86]
 }
